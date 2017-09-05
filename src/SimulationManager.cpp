@@ -5,12 +5,12 @@
 //
 
 #include "SimulationManager.h"
-#include "Simulation"
+#include "Simulation.h"
 
-EPSF::SimulationManager() {
+EPSF::SimulationManager::SimulationManager() {
     m_Simulation = new Simulation();
 }
 
-EPSF::~SimulationManager() {
+EPSF::SimulationManager::~SimulationManager() {
 
 }

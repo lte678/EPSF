@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/leon/CLionProjects/EPSF/cmake-build-debug
 CMakeFiles/TestApp.dir/all:
 	$(MAKE) -f CMakeFiles/TestApp.dir/build.make CMakeFiles/TestApp.dir/depend
 	$(MAKE) -f CMakeFiles/TestApp.dir/build.make CMakeFiles/TestApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leon/CLionProjects/EPSF/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target TestApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leon/CLionProjects/EPSF/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target TestApp"
 .PHONY : CMakeFiles/TestApp.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/TestApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leon/CLionProjects/EPSF/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leon/CLionProjects/EPSF/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TestApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leon/CLionProjects/EPSF/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/TestApp.dir/rule

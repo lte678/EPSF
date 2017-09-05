@@ -45,6 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/leon/CLionProjects/EPSF/src"/>
+					<Add directory="/home/leon/CLionProjects/EPSF/src/simulation"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -69,6 +70,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/leon/CLionProjects/EPSF/src"/>
+					<Add directory="/home/leon/CLionProjects/EPSF/src/simulation"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -87,6 +89,18 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/leon/CLionProjects/EPSF/main.cpp">
+			<Option target="TestApp"/>
+		</Unit>
+		<Unit filename="/home/leon/CLionProjects/EPSF/src/SimulationManager.cpp">
+			<Option target="TestApp"/>
+		</Unit>
+		<Unit filename="/home/leon/CLionProjects/EPSF/src/SimulationManager.h">
+			<Option target="TestApp"/>
+		</Unit>
+		<Unit filename="/home/leon/CLionProjects/EPSF/src/simulation/Simulation.cpp">
+			<Option target="TestApp"/>
+		</Unit>
+		<Unit filename="/home/leon/CLionProjects/EPSF/src/simulation/Simulation.h">
 			<Option target="TestApp"/>
 		</Unit>
 		<Unit filename="/home/leon/CLionProjects/EPSF/CMakeLists.txt">
