@@ -5,9 +5,10 @@
 //
 
 #include "SimulationManager.h"
+#include "Simulation"
 
 EPSF::SimulationManager() {
-
+    m_Simulation = new Simulation();
 }
 
 EPSF::~SimulationManager() {

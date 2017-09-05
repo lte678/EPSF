@@ -1,4 +1,5 @@
 #pragma once
+#include "./simulation/Simulation.h"
 
 namespace EPSF {
 
@@ -6,6 +7,8 @@ namespace EPSF {
     public:
         SimulationManager();
         ~SimulationManager();
+    private:
+        Simulation *m_Simulation;
     };
 
 }
