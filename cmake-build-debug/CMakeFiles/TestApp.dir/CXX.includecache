@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leon/CLionProjects/EPSF/./src/SimulationManager.h
+
+/home/leon/CLionProjects/EPSF/main.cpp
+./src/SimulationManager.h
+/home/leon/CLionProjects/EPSF/./src/SimulationManager.h
+iostream
+-
+
