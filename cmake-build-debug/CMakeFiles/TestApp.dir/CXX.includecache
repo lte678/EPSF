@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../src/simulation/Simulation.h
-SimulationComponent.h
-../src/simulation/SimulationComponent.h
-constants.h
-../src/simulation/constants.h
-
-../src/simulation/SimulationComponent.h
-
-../src/simulation/constants.h
-
 /home/leon/CLionProjects/EPSF/./src/./simulation/Simulation.h
 SimulationComponent.h
 /home/leon/CLionProjects/EPSF/./src/./simulation/SimulationComponent.h
@@ -29,6 +19,12 @@ constants.h
 /home/leon/CLionProjects/EPSF/./src/SimulationManager.h
 ./simulation/Simulation.h
 /home/leon/CLionProjects/EPSF/./src/./simulation/Simulation.h
+unistd.h
+-
+thread
+-
+mutex
+-
 
 /home/leon/CLionProjects/EPSF/main.cpp
 ./src/SimulationManager.h
@@ -42,15 +38,23 @@ SimulationComponent.h
 constants.h
 /home/leon/CLionProjects/EPSF/src/./simulation/constants.h
 
+/home/leon/CLionProjects/EPSF/src/./simulation/SimulationComponent.h
+
+/home/leon/CLionProjects/EPSF/src/./simulation/constants.h
+
 /home/leon/CLionProjects/EPSF/src/SimulationManager.cpp
 SimulationManager.h
 /home/leon/CLionProjects/EPSF/src/SimulationManager.h
-Simulation.h
-/home/leon/CLionProjects/EPSF/src/Simulation.h
 
 /home/leon/CLionProjects/EPSF/src/SimulationManager.h
 ./simulation/Simulation.h
 /home/leon/CLionProjects/EPSF/src/./simulation/Simulation.h
+unistd.h
+-
+thread
+-
+mutex
+-
 
 /home/leon/CLionProjects/EPSF/src/simulation/Simulation.cpp
 Simulation.h
