@@ -46,6 +46,7 @@
 				<Compiler>
 					<Add directory="/home/leon/CLionProjects/EPSF/src"/>
 					<Add directory="/home/leon/CLionProjects/EPSF/src/simulation"/>
+					<Add directory="/home/leon/CLionProjects/EPSF/include"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -71,6 +72,7 @@
 				<Compiler>
 					<Add directory="/home/leon/CLionProjects/EPSF/src"/>
 					<Add directory="/home/leon/CLionProjects/EPSF/src/simulation"/>
+					<Add directory="/home/leon/CLionProjects/EPSF/include"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>

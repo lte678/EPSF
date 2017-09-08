@@ -11,6 +11,7 @@ int main() {
     simulation = new EPSF::SimulationManager();
 
     std::cout << "Hello, World!" << std::endl;
-    usleep(10000000);
+    simulation->loadSimulation("debug.xml");
+    usleep(1000000);
     return 0;
 }

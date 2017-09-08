@@ -1,5 +1,5 @@
 #pragma once
-#include "SimulationComponent.h"
+#include "SimulationElement.h"
 #include "constants.h"
 
 namespace EPSF {
@@ -9,7 +9,13 @@ namespace EPSF {
         Simulation();
         ~Simulation();
     private:
-        SimulationComponent *m_SimulationComponents[MAX_SIMULATION_COMPONENTS];
+        SimulationElement *m_SimulationElements[MAX_SIMULATION_COMPONENTS];
+
+        void start();
+        void stop();
+
+        void update(double timeStep);
+        void addElement(SimulationElement* element);
     };
 
 }

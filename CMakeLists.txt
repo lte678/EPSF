@@ -10,6 +10,8 @@ find_package(Threads REQUIRED)
 include_directories(${PROJECT_SOURCE_DIR}/src)
 include_directories(${PROJECT_SOURCE_DIR}/src/simulation)
 
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
 add_executable(TestApp ${PROJECT_SOURCE_DIR}/main.cpp
         ${PROJECT_SOURCE_DIR}/src/SimulationManager.cpp
         ${PROJECT_SOURCE_DIR}/src/simulation/Simulation.cpp)
